@@ -1,2 +1,3 @@
 let d = new Date();
-console.log(d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds());
+        document.body.innerHTML = "<h1>Time right now is:  " + d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds()
+        "</h1>"
